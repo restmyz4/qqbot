@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CPMain\CPMain.cpp" />
+    <ClCompile Include="CPMain\include\Duel.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\Helper.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\RequestSong.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\SourceLog.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\SourceQuery.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\SourceRcon.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\TCPPing.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMain\include\UrlEncoding.cpp">
+      <Filter>CPMain\include</Filter>
+    </ClCompile>
+    <ClCompile Include="MiraiCP\MiraiCP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CPMain">
+      <UniqueIdentifier>{0bf3c17a-86d0-4677-a5e3-8d764cbb5ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPMain\include">
+      <UniqueIdentifier>{558521bb-1e51-45c4-af22-ea743a2f2043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPMain\include\Duel.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\Helper.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\httplib.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\parsemsg.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\RequestSong.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\SourceLog.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\SourceQuery.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\SourceRcon.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\TCPPing.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMain\include\UrlEncoding.h">
+      <Filter>CPMain\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
